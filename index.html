@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is a second day-html questions</h1>
+    <h3>8.Difference between HTML tags and elements?</h3>   
+    <p>HTML Tags: Tags are the starting and ending parts of an HTML element. 
+        They begin with < symbol and end with > symbol. Whatever written inside 
+        < and > are called tags.</p>
+        <p>HTML elements: Elements enclose the contents in between the tags.
+             They consist of some kind of structure or expression. It generally 
+             consists of a start tag, content and an end tag.</p>
+    <h3>9.Explain br tags?</h3>
+    <p>The &lt;br &gt;tag inserts a single line break.The br tag is useful for writing addresses or poems.
+        The br tag is an empty tag which means that it has no end tag.</p>
+    <h3>10.Explain how many different types of lists we have in html?</h3> 
+    <p>There are 3 types of lists in HTML, namely: Unordered List. Ordered List. Description List.</p>   
+    <p>Unordered List: An Unordered list is used to create a list of related items, 
+        in bulleted or unordered format. It starts with the < ul > tag,
+         followed by the < li > tag to show list items inside < ul > tag. </p>
+         <ol type="I">
+            <li>C</li>
+            <li>C++</li>
+            <li>Core-Java</li>
+            <li>Python</li>
+            <li>Javascript</li>
+        </ol>
+    <p>Ordered Lists: The Ordered lists have an order which is either numerical or alphabetical. 
+        The < ol > tag is used to create ordered lists in HTML and 
+        just like unordered list, we use < li > tag to define or show lists inside < ol > tag.</p> 
+        <ol start="12">
+            <li>C</li>
+            <li>C++</li>
+            <li>Core-Java</li>
+            <li>Python</li>
+            <li>Javascript</li>
+        </ol>    
+    <p>Description List: A description list is a type of list where each item
+         has a description. It is also known as a definition list. 
+         The < dl > tag is used to create description list, the < dt > tag 
+         defines the item, and the < dd > tag describes each item in list.</p>  
+         <dl> <dt>Code</dt>
+            <dd>- Code all day!</dd>
+                <dt>Eat</dt>
+            <dd>- Eat healthy food</dd>
+                <dt>Sleep</dt>
+            <dd>- Sleep soundly!</dd>
+        </dl>
+    <h3>11.What are semantic tags?</h3>    
+    <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+
+       <p> Examples of non-semantic elements: < div > and < span > - Tells nothing about its content.</p>
+        
+       <p>  Examples of semantic elements: < form >, < table >, and < article > - Clearly defines its content.</p> 
+    <h3>12.Write code to create an ordered list with roman numbers</h3>
+    <ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+     </ol>
+    <h3>13.Write code to create an unordered list with circle </h3> 
+    <ul type="circle">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+    <h3>14.Write code to create a link to https://www.prepbytes.com</h3>
+    <p> < a href ="" target="">< /a > is used for creating a link</p>
+    <a href="https://www.prepbytes.com" target="_blank"> Prepbytes.com</a>
+    <h3>15.Write a code to insert an image </h3>
+    <p> < img src="" alt="" width="" height="" > is used for insert a image</p>
+    <img src="https://us.123rf.com/450wm/denisvostrikov/denisvostrikov1901/denisvostrikov190100046/denisvostrikov190100046.jpg?ver=6" alt="img" width="500" height="300">
+    <h3>16.Create a form contain input fields like name age email and contact</h3>
+    <form>
+        <label for="fname">Name</label>
+        <input type="text" placeholder="Name" name="fname" id="fname">
+        <br>
+        <br>
+        <label >Email Adress</label>
+        <input type="email" placeholder="Email"  id="email">
+        <br>
+        <br>
+        <label >Age</label>
+        <input type="number" placeholder="age">
+        <br>
+        <br>
+        <label for="Phone Number">Phone Number</label>
+        <input type="number">
+        <br>
+    </form>    
+    <h3>17.Create a table and explain how to acheive colspan</h3>  
+    <p>The colspan attribute in HTML specifies the number of columns 
+        a cell should span. It allows the single table cell to span
+         the width of more than one cell or column. It provides the 
+         same functionality as “merge cell” in a spreadsheet program like Excel.</p>
+    <table border="2" align="center">
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>57</td>
+        </tr>
+        <tr>
+            <td>Stalin</td>
+            <td>merry</td>
+            <td>25</td>
+        </tr>
+      </table> 
+    <h3>18.Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two </h3>   
+     <form> 
+        <label>Technology</label> <br>
+        <input type="checkbox" name="Technology" value="HTML"/>HTML <br>
+        <input type="checkbox" name="Technology" value="CSS"/>CSS <br>
+        <input type="checkbox" name="Technology" value="React"/>React <br>
+        <input type="checkbox" name="Technology" value="Node"/>Node <br>
+        <br>
+        <label> Course</label> <br>
+        <input type="radio" name="Course" value="MERN"/> MERN <br>
+        <input type="radio" name="Course" value="MEAN"/> MEAN <br>
+     </form>
+
+</body>
+</html>
